@@ -1,3 +1,10 @@
+import Link from 'next/link';
+import styles from './header.module.scss';
+
 export default function Header() {
-  // TODO
+  return (
+    <Link href="/">
+      <img className={styles.img} src="/heading-component.png" alt="logo" />
+    </Link>
+  );
 }

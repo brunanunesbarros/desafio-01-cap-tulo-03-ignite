@@ -1,1 +1,66 @@
-// TODO
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-body);
+
+  .banner {
+    width: 100%;
+  }
+
+  .section {
+    width: 700px;
+
+    h1 {
+      font-family: Inter;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 2.5rem;
+      line-height: 58px;
+      letter-spacing: -0.5px;
+      color: var(--heading);
+      margin: 2rem 0;
+    }
+
+    .info {
+      display: flex;
+      color: var(--info);
+      margin-top: 1.5rem;
+      margin-bottom: 3rem;
+
+      .calendar {
+        margin-right: 0.5rem;
+      }
+
+      .author {
+        margin-left: 1rem;
+
+        .user {
+          margin-right: 0.5rem;
+        }
+      }
+      
+      .readingTime {
+        margin-left: 1rem;
+
+        .clock {
+          margin-right: 0.5rem;
+        }
+      }
+    }
+
+    .content {
+      line-height: 2rem;
+      text-align: justify;
+      color: var(--heading);
+      margin-bottom: 4rem;
+
+      strong {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
